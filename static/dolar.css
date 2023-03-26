@@ -1,0 +1,36 @@
+.center{
+    margin: 0 auto;
+    text-align:center;
+}
+body{
+    width:100%;
+    background-color: aquamarine;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+.caja_principal{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    height:1300px;
+    font-size:28px;
+}
+#oficial, #bolsa{
+    display:inline-block;
+    width:100%;
+    text-align:center;
+    border:2px solid black;
+    padding:0;
+    margin:0 auto;
+    font-weight: bold;
+}
+
+.peso{
+    height:50px;
+}
+.dolar{
+    height:250px;
+    line-height: 250px;
+    font-size: 36px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../static/dolar.css ">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Dolar Loco</title>
+</head>
+
+<body>
+    <div class="caja_principal">
+
+        <div class="container center">
+            <img src="../static/images/dolarloco.png" alt="banner" class="img-fluid">
+        </div>
+        <div class="row center">
+        <!--                                             caja izquierda (Benja)                                          -->
+ 
+                <div class="col-6 center">
+                    <img src="../static/images/benja.png" class="img-fluid" width="50%">
+                
+<!--                                       caja que contiene el texto              -->    
+                    <div class="col-6 center precio dolar" id="dolar">
+                        <strong>1 USD</strong>
+                    </div>
+                    
+                </div>
+        <!--                                             caja izquierda (Juli)                                           -->       
+                <div class="col-6 center">
+                    <img src="../static/images/roca.png"  class="img-fluid" width="50%">
+                
+<!--                                       caja que contiene el texto              -->
+                    <div class="col-6 center precio" id="peso">
+                        <div class="row header peso">
+                            <div class=" col-6 peso"> COMPRA</div><div class="col-6 peso">VENTA</div>
+                        </div>
+                        <div class="row header peso" id="oficial">dolar oficial</div>
+                        <div class="row oficial peso">
+                            <div class=" col-6 precio" id="compra_oficial"> ARS{{compra_oficial}}</div>
+                            <div class=" col-6 precio" id="venta_oficial"> ARS{{venta_oficial}}</div>
+                        </div>
+                        <div class="row bolsa peso">
+                            <div class="row headers peso" id="bolsa">dolar bolsa</div>
+                            <div class=" col-6 compra_oficial"> ARS{{compra_bolsa}}</div>
+                            <div class=" col-6 venta_oficial"> ARS{{venta_bolsa}}</div>
+                        </div>
+
+                    </div>
+                 
+                </div>
+
+
+
+        </div>
+    </div>
+</body>
+</html>
